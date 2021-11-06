@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Js-AgeCalc</title>
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="row py-5">
+        <div class="col-md-12">
+          <img id="img" src="age-calculator.png" alt="age-calculator" />
+        </div>
+        <div class="col-md-12 my-5">
+          <input id="yearInput" placeholder="Enter your birth year" class="form-control" type="text">
+        </div>
+        <div class="col-md-12">
+          <button onclick="calcAge()" class="btn btn-info w-100">Calculate Age</button>
+        </div>
+      </div>
+      <div class="text-center">
+        <h2 id="age"></h2>
+        <h2 id="type"></h2>
+        <h2 id="asterisk"></h2>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
